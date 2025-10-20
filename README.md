@@ -1,7 +1,7 @@
 # Interaktivni program za izračun in prikaz matematičnih funkcij
 
 **Avtorji:** Amadeja Roškarič, Lan Pušič  
-**Datum:** 15. oktober 2025  
+**Datum:** 20. oktober 2025  
 
 ---
 
