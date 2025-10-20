@@ -1,0 +1,74 @@
+Začni program
+
+Uvozi module:
+    - funkcije.py (linearna, kvadratna, kubicna, koren, absolutna, sinus, kosinus, eksponentna, logaritemska, tangens)
+    - izris.py (funkcija narisi_graf)
+    - numpy
+    - csv
+
+Definiraj seznam funkcij:
+    (1, Linearna, linearna)
+    (2, Kvadratna, kvadratna)
+    ...
+    (10, Tangens, tangens)
+
+IZPISI seznam funkcij uporabniku
+
+VPRAŠAJ uporabnika za izbiro funkcije (1–10)
+
+Če izbira ni veljavna:
+    Izpiši "Napačna izbira!" in KONEC
+
+PRIDOBI naziv in funkcijo na podlagi izbire
+
+Če je funkcija linearna:
+    VPRAŠAJ uporabnika za parameter k
+    Če k ni številka:
+        Izpiši napako in KONEC
+
+VPRAŠAJ uporabnika za interval:
+    - x_min
+    - x_max
+    - korak
+
+Če interval ali korak ni veljaven:
+    Izpiši napako in KONEC
+
+Preveri domeno funkcije:
+    Če funkcija je koren in x_min < 0:
+        x_min = max(0, x_min)
+    Če funkcija je logaritemska in x_min <= 0:
+        x_min = max(0.001, x_min)
+    Če funkcija je tangens:
+        Izpiši opozorilo o asimptotah
+    Če funkcija je eksponentna in x_max > 10:
+        Izpiši opozorilo o hitrosti rasti
+
+GENERIRAJ seznam x vrednosti od x_min do x_max s korakom
+
+RAČUNAJ y vrednosti funkcije za vse x:
+    Če funkcija ima parametre:
+        y = funkcija(x, parametri)
+    Drugače:
+        y = funkcija(x)
+
+ODSTRANI neveljavne y vrednosti (npr. neskončnosti, NaN)
+
+Če je funkcija tangens:
+    Odstrani x, kjer cos(x) = 0 (navpične asimptote)
+
+VPRAŠAJ uporabnika, če želi označiti točke na grafu:
+    Če DA:
+        VPRAŠAJ za število točk
+        VPRAŠAJ za gostoto (vsako koliko točk naj se izbere)
+        IZBERI indekse točk in jih shrani
+
+ODPRI CSV datoteko 'rezultati.csv' za pisanje
+ZAPIŠI glavo: ["x", "y"]
+ZAPIŠI vse x in y vrednosti v CSV
+
+IZPIŠI "Rezultati shranjeni v 'rezultati.csv'"
+
+POKLIČI funkcijo narisi_graf(x, y, naziv, tocke) za izris grafa
+
+KONEC programa
