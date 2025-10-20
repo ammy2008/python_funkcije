@@ -26,11 +26,11 @@ Projekt je razdeljen v tri module:
 
 projekt_funkcije/<br>
 │<br>
-├── main.py # Glavni program<br>
-├── funkcije.py # Definicije matematičnih funkcij<br>
-├── izris.py # Funkcija za izris grafa<br>
-├── rezultati.csv # Samodejno ustvarjena datoteka z rezultati (ob zagonu)<br>
-└── README.md # Dokumentacija projekta<br>
+├── main.py   # Glavni program<br>
+├── funkcije.py   # Definicije matematičnih funkcij<br>
+├── izris.py   # Funkcija za izris grafa<br>
+├── rezultati.csv   # Samodejno ustvarjena datoteka z rezultati (ob zagonu)<br>
+└── README.md   # Dokumentacija projekta<br>
 
 ---
 
