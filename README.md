@@ -24,13 +24,19 @@ Projekt je razdeljen v tri module:
 
 ## Struktura projekta
 
-**projekt_funkcije/**
-**│**
-**├── main.py # Glavni program**
-**├── funkcije.py # Definicije matematičnih funkcij**
-**├── izris.py # Funkcija za izris grafa**
-**├── rezultati.csv # Samodejno ustvarjena datoteka z rezultati (ob zagonu)**
-**└── README.md # Dokumentacija projekta**
+projekt_funkcije/
+
+│
+
+├── main.py # Glavni program
+
+├── funkcije.py # Definicije matematičnih funkcij
+
+├── izris.py # Funkcija za izris grafa
+
+├── rezultati.csv # Samodejno ustvarjena datoteka z rezultati (ob zagonu)
+
+└── README.md # Dokumentacija projekta
 
 ---
 
