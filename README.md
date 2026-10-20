@@ -41,6 +41,7 @@ Pred uporabo je potrebno namestiti naslednji knjižnici:
 
 ```bash
 pip install numpy matplotlib
+```
 
 Zagon programa
 
