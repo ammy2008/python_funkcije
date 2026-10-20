@@ -50,6 +50,7 @@ V terminalu se postavite v mapo projekta in zaženite:
 
 Potek uporabe
     1. Ob zagonu se prikaže tabela funkcij:
+        ```bash
         === TABELA FUNKCIJ ===
             1. Linearna: y = k*x
             2. Kvadratna: y = x²
@@ -62,7 +63,7 @@ Potek uporabe
             9. Logaritemska: y = ln(x)
             10. Tangens: y = tan(x)
         Uporabnik vnese številko funkcije (1–10).
-
+        ```
     2. Če izbere linearna funkcija, mora vnesti naklon k.
     3. Nato vnese interval (x_min, x_max) in korak.
     4. Program preveri domeno funkcije (npr. √x ≥ 0, ln(x) > 0, opozori na asimptote pri tan(x)).
